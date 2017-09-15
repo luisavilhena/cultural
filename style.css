@@ -1,0 +1,386 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.auxiliar {
+	width: 100%;
+	height: 236px;
+	background-color: #F0F0F0;
+	
+}
+.centralizar{
+    width:1176px;
+	margin:0 auto;
+	
+}
+.centralizar img {
+	float: left;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+.auxiliar ul {
+	padding-top: 33px;
+	text-align: center;
+}
+.auxiliar ul :hover{
+	background:#2F2F2F;}
+
+.auxiliar ul li {
+	width: 172px;
+	height: 172px;
+	background-color: yellow;
+	display: block;
+	margin: 0 ;
+	float: left;
+}
+.auxiliar ul li a {
+	font-size: 18px;
+	font-family: Helvetica, Arial;
+	display: block;
+	margin-top: 70px;
+	color: white;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+
+.clear {
+	clear: both;
+}
+.auxiliar .bt-inicio {
+	background-color: #2F2F2F;
+}
+.centralizar .bt-sobre {
+	background-color: #5ABB49;
+}
+.centralizar .bt-cultura {
+background-color: #F7B40E;
+}
+.centralizar .bt-noticias {
+	background-color:#F34C49; 
+}
+.centralizar .bt-contato {
+	background-color: #B2398A;
+}
+
+#site{
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.apresentar{
+width: 1400px;
+height: 510px;
+	color: white;
+	text-align: center;
+	background-image: url("teatro.jpg") ;
+	background-size: 100%;
+	background-position: center center;
+}
+.apresentar h1{
+	padding-top:100px;
+	font-size:50px;
+}
+.apresentar h2{
+	margin-top: 70px;
+	font-size: 20px;
+}
+
+.folha
+{
+	padding-top: 33px;
+	width: 1400px;
+	height: 405px;
+	background-color: #F0F0F0;
+}
+.quadrado {
+	float: left;
+	width: 567px;
+	height: 357px;
+	background-color: #FFFFFF;
+	margin-left: 107px;
+	text-align: center;
+	color: #464646;
+}
+.quadrado h1 {
+	font-size: 45px;
+	padding-top: 50px
+}
+.quadrado h2 {
+	font-size: 20px;
+	padding: 60px 76px;
+	
+}
+.festa {
+float: left;
+ width: 600px;
+ height: 357px;
+ padding-right:33px;
+ padding-left: 29px;
+ overflow: hidden;
+}
+
+.segundafolha {
+	width: 1400px;
+	height: 430px;
+	background-color: #F0F0F0;
+	text-align: center;
+	color: white;
+
+
+}
+.verdeclaro {
+    float:left;
+	width: 369px;
+	height: 357px;
+	background-color: #43CACA;
+	margin-left: 107px;	
+	
+}
+.verdeclaro h1 {
+	padding-top: 40px;
+	font-size: 45px;
+}
+.verdeclaro h2 {
+	padding: 60px 30px;
+	font-size: 20px;
+}
+.verdeescuro {
+	float: left;
+	width: 369px;
+	height: 357px;
+	background-color: #5ABB49;
+	margin-left: 31px;	
+}
+.verdeescuro h1 {
+	padding-top: 30px;
+	font-size: 45px;
+}
+.verdeescuro h2 {
+	padding: 50px 30px;
+	font-size: 20px;
+}
+.amarelo {
+	float:left;
+	width: 369px;
+	height: 357px;
+	background-color: #F7B40E;
+	margin-left: 31px;	
+	}
+.amarelo h1 {
+	padding-top: 40px;
+	font-size: 45px;
+}
+.amarelo h2 {
+		padding: 50px 30px;
+	font-size: 20px;
+}
+.terceirafolha {
+	background-image: url("ideias.jpg");
+     max-width: 1400px;
+    height: 514px;
+      background-size: 100%;
+     overflow: inherit;
+	background-position: center center;
+	color: white;
+	font-size: 90px;
+	padding-top: 150px;
+	text-align: center;  
+}
+
+.quartafolha {
+	width: 1400px;
+	height: 430px;
+	background-color: #F0F0F0;
+}
+.primeirorosto:hover
+{background:#2F2F2F;}
+
+.primeirorosto {
+	margin-top: 30px;
+	float:left;
+	width: 369px;
+	height: 357px;
+	background-color: #FFFFFF;
+	margin-left: 107px;	
+	text-align: center;  
+}
+.primeirorosto h1 {
+ color: #B2398A;
+ padding-top: 30px;
+ font-size: 35px;
+
+}
+.primeirorosto h2 {
+	color: #828282;
+	font-size: 20px;
+	padding: 50px 30px;
+}
+.segundorosto:hover
+{
+	background:#2F2F2F;
+}
+
+.segundorosto {
+	margin-top: 30px;
+	float:left;
+	width: 369px;
+	height: 357px;
+	background-color: #FFFFFF;
+	margin-left: 30px;	
+	text-align: center;
+}
+.segundorosto h1 {
+	color: #B2398A;
+ padding-top: 30px;
+ font-size: 35px;
+}
+.segundorosto h2 {
+		color: #828282;
+	font-size: 20px;
+	padding: 50px 30px;
+}
+
+.segundorosto:hover h1,
+.primeirorosto:hover h1,
+.terceirorosto:hover h1 {
+	color: white;
+}
+
+.segundorosto:hover h2,
+.primeirorosto:hover h2,
+.terceirorosto:hover h2 {
+	color: white;
+}
+
+.terceirorosto:hover
+{background:#2F2F2F;}
+.terceirorosto {
+
+	margin-top: 30px;
+	float:left;
+	width: 369px;
+	height: 357px;
+	background-color: #FFFFFF;
+	margin-left: 30px;	
+	text-align: center;
+}
+.terceirorosto h1 {
+		color: #B2398A;
+ padding-top: 30px;
+ font-size: 35px;
+}
+
+.terceirorosto h2 {
+		color: #828282;
+	font-size: 20px;
+	padding: 50px 30px;
+
+}
+.footer {
+		width: 1400px;
+	height: 500px;
+
+}
+.grande {
+	overflow: left;
+	width: 1400px;
+	height: 430px;
+    background-color: #2F2F2F;
+
+}
+    .grande h3 {
+	font-size: 25px;
+	color: white;
+	padding: 20px 5px;
+}
+
+
+.grande ul {
+	font-size: 13px;
+	color: #888888;
+	
+}
+.grande ul li {
+	padding-top: 15px;
+} 
+.pequeno {
+
+	background-color: #242424;
+	width: 1400px;
+	height: 70px;
+}
+.right-column {
+	padding: 20px 60px;
+}
+
+.left-column {
+	padding: 20px 60px;
+}
+.left-column, .right-column {
+	float: left;
+	margin-left: 15px;
+}
+.maps{
+	 padding-top:20px;
+	padding-left: 400px;
+
+}
